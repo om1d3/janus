@@ -1,6 +1,6 @@
-# Janus
+![Janus: two faces, one gate](assets/janus-banner.png)
 
-**Two faces, one gate.** Janus scans the image behind every Docker container on a host with two independent vulnerability scanners, [Grype](https://github.com/anchore/grype) and [Trivy](https://github.com/aquasecurity/trivy). It merges what they find into one report and lets you browse it per image in the terminal, worst image first and highest CVSS score first.
+Janus scans the image behind every Docker container on a host with two independent vulnerability scanners, [Grype](https://github.com/anchore/grype) and [Trivy](https://github.com/aquasecurity/trivy). It merges what they find into one report and lets you browse it per image in the terminal, worst image first and highest CVSS score first.
 
 It was written for **bender** (TrueNAS Community Edition 25.10, HP MicroServer Gen8), where about forty containers run from a single `docker-compose.yaml`. It is meant to be run by hand at regular intervals: scan once, then come back to the saved result as often as needed.
 

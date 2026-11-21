@@ -2,6 +2,21 @@
 
 Versions follow the date-based scheme used across bender's configuration: `YYYYMMDD`, with `.2`, `.3` and so on for later changes on the same day.
 
+## 20261121.2
+
+- **Added** a visual identity in `assets/`, based on the Janus bronze *as*: two bearded faces back to back on a verdigris field, standing on a ground line drawn in the five severity colours of the browser.
+
+  | File | Use |
+  |---|---|
+  | `janus-mark.svg` | The coin mark, vector, full detail. |
+  | `janus-mark-simple.svg` | Simplified mark for small sizes: no beading, no texture, bolder lines. |
+  | `janus-avatar.png` | 512 x 512 repository avatar for Forgejo (from the simplified mark). |
+  | `janus-social.png` | 1280 x 640 social preview for GitHub. |
+  | `janus-banner.png` | README banner (1800 x 680, shown at half size). |
+
+- **Changed** the README opens with the banner.
+- Lettering: Cardo (name and tagline) and Anonymous Pro (command-line text), both under the SIL Open Font License. The fonts are only in the PNG files; none are distributed.
+
 ## 20261121
 
 - **Renamed** from `vulnscan.py` to **Janus** (`janus.py`) and moved into its own repository. It now lives at `/mnt/BIG/filme/configs/janus` on bender, like `audiobook-foundry`.
